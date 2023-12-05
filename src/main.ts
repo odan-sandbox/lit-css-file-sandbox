@@ -3,10 +3,12 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
 import "./components/sample-lit-css/sample-lit-css.ts";
+import "./components/sample-style-tag/sample-style-tag.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <sample-lit-css></sample-lit-css>
+    <sample-style-tag></sample-style-tag>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
